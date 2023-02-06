@@ -24,10 +24,10 @@ int main () {
         std::cout << std::endl << "Input index: ", std::cin >> index;
         std::cout << std::endl << "Input value ", std::cin >> value;
         
-        if(index > -1 && index < 11){
-            size[index - 1] = value;
+        if(index > -1 && index < 10){
+            size[index] = value;
         }
-    }   while(index > -1 && index < 11);
+    }   while(index > -1 && index < 10);
         std::cout << "The given index isn't within the range.";
     
     return 0;
