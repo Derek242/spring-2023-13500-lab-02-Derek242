@@ -20,7 +20,6 @@ int main() {
     
     for (int i = 2; i < 60; i++){
         fib[i] = fib[i-1] + fib[i-2];
-        std::cout << fib[i] << std::endl;
     } 
     for (int i = 0; i < 60; i++){
       std::cout << fib[i] << std::endl;
